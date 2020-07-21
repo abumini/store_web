@@ -1,0 +1,6 @@
+<h2>Products in store</h2>
+<ul class="products">
+  <li *ngFor="let prod of products">
+    <span class="badge">{{prod.product_id}}</span> {{prod.name}}
+  </li>
+</ul>
